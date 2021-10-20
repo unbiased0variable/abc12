@@ -1,0 +1,67 @@
+/* Defaults **************************************************/
+* {
+    box-sizing: border-box;
+  }
+  
+  html {    
+    font-family:'Roboto', sans-serif;
+  }
+  
+  
+  body {
+    background-color: white;
+    margin: 0;       
+  }
+  
+  h1{
+    font-size: 36px;
+  }
+  
+  h2{    
+    font-size: 16px;
+  }
+   
+  
+  
+  /* Structure **************************************************/
+  
+  .header h1{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(5, 48, 5);
+  }
+
+  .home-page{
+    margin: 0 250px;
+  }
+
+  .group-images{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content:space-evenly;
+
+  }
+
+  .item{
+    width: 300px;
+    margin: 10px;
+  }
+  
+  .item-title a{
+    color: rgb(5, 48, 5);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .item-details{
+    color: rgb(58, 57, 57);
+    font-weight: 400;
+  }
+
+
+  .item-image img{
+    max-width: 100%;
+    text-align: center; 
+    margin: 0 10px;
+  }
